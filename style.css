@@ -271,7 +271,7 @@ section {
   margin-bottom: 2rem;
 }
 span {
-  color: var(--main-color);
+  color: rgb(4, 88, 22);
 }
 
 .home-img {
@@ -382,11 +382,24 @@ span {
   display: block;
 }
 .about {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   gap: 2rem;
-  background: var(--second-color);
+  /* background: var(--second-color); */
+  background-image: url('./images/Gautam-Adani-IRMA-Speech.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about-text{
+  height: 56vh;
+  width: 33vw;
+  font-size: large;
+  background-color: #000000cb;
+  color: #aaa;
+  padding: 3vh 3vw 3vh 3vw;
+  border-radius: 1em;
 }
 
 .about-img img {
@@ -400,6 +413,7 @@ span {
 .about-content h2 {
   text-align: left;
   line-height: 1.2;
+  color: black;
 }
 .about-content h3 {
   font-size: 2.6rem;
